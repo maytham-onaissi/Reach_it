@@ -13,14 +13,12 @@ public class PlayerMovement : MonoBehaviour
     float loadingTime = 1f;
     
     bool isGrounded;
-    // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody>();
         playerAudioSource = GetComponent<AudioSource>();
     }
 
-    // Update is called once per frame
     void Update()
     {
         move();
