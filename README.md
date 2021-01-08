@@ -17,12 +17,12 @@
 
 >#### (Select Level) زر
 (Select Level) إذا قام اللاعب بالنقر على زر \
-سوف يتم أخذ اللاعب الى قائمة أختيار المراحل 
+سوف يتم أخذ اللاعب الى قائمة اختيار المراحل 
 
 ![alt text](https://github.com/maytham-onaissi/Reach_it/blob/main/in%20game%20screenshots/Main%20Menu%20-%20Select%20Level.png "Select Level Button")
 
 ***
->### (Select level) قائمة أختيار المراحل
+>### (Select level) قائمة اختيار المراحل
 قائمة أختيار المراحل تحتوي على أربع أزرار يمكن للاعب أن يختار إحداها
 
 ![alt text](https://github.com/maytham-onaissi/Reach_it/blob/main/in%20game%20screenshots/Select%20Level.PNG "Select Level")
@@ -66,7 +66,7 @@
 >### (Time Rift) المرحلة الثالثة
 في هذه المرحلة يبدأ اللاعب في الزمن الماضي ثم ينتقل من منصة الى أخرى \
 و خلال رحلته يقوم اللاعب بإستخدام\
-قدرة تسمح له بالوصول الى الجسر الموصل للمتسقبل \
+قدرة تسمح له بالوصول الى الجسر الموصل للمستقبل \
 ثم يكمل طريقة للوصول الى النهاية
 
 ![alt text](https://github.com/maytham-onaissi/Reach_it/blob/main/in%20game%20screenshots/Third%20Level.PNG
