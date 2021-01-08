@@ -10,8 +10,9 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] float movementSpeed;
     [SerializeField] float jumpPower;
     [SerializeField] AudioClip jumpSound;
+
     float loadingTime = 1f;
-    
+
     bool isGrounded;
     void Start()
     {
@@ -35,7 +36,8 @@ public class PlayerMovement : MonoBehaviour
             rb.AddForce(Vector3.up * jumpPower);
             playerAudioSource.PlayOneShot(jumpSound);
 
-        }
+        } 
+         
     }
 
      void OnCollisionEnter(Collision collision)
@@ -83,4 +85,5 @@ public class PlayerMovement : MonoBehaviour
         SceneManager.LoadScene(nextSceneIndex);
     }
 
+    
 }
