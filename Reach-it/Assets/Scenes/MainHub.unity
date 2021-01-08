@@ -132,7 +132,7 @@ GameObject:
   - component: {fileID: 76634103}
   - component: {fileID: 76634104}
   m_Layer: 0
-  m_Name: playScript
+  m_Name: MainMenuScript
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -176,7 +176,7 @@ GameObject:
   - component: {fileID: 129360731}
   - component: {fileID: 129360730}
   m_Layer: 5
-  m_Name: Select Level
+  m_Name: Select Level Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -516,7 +516,7 @@ GameObject:
   - component: {fileID: 732364890}
   - component: {fileID: 732364889}
   m_Layer: 5
-  m_Name: Text
+  m_Name: Main menu Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -596,7 +596,7 @@ GameObject:
   - component: {fileID: 865384703}
   - component: {fileID: 865384702}
   m_Layer: 5
-  m_Name: Button (1)
+  m_Name: 'Select Level Button '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -632,7 +632,7 @@ Animator:
   m_GameObject: {fileID: 865384700}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 2f43f77d586827146b22ffe76774b97c, type: 2}
+  m_Controller: {fileID: 9100000, guid: cfb6f3db9a77f6b4fb0651a50691da8c, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -1064,7 +1064,7 @@ GameObject:
   - component: {fileID: 1570922393}
   - component: {fileID: 1570922392}
   m_Layer: 5
-  m_Name: Text
+  m_Name: play Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1147,7 +1147,7 @@ GameObject:
   - component: {fileID: 1729729095}
   - component: {fileID: 1729729094}
   m_Layer: 0
-  m_Name: Quad
+  m_Name: BackGround
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1350,7 +1350,7 @@ GameObject:
   - component: {fileID: 1986689662}
   - component: {fileID: 1986689665}
   m_Layer: 5
-  m_Name: Button
+  m_Name: play Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1477,7 +1477,7 @@ Animator:
   m_GameObject: {fileID: 1986689660}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 2f43f77d586827146b22ffe76774b97c, type: 2}
+  m_Controller: {fileID: 9100000, guid: df1bb309ab240b949bf07035e42672a2, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
