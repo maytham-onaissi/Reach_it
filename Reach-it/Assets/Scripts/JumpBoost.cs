@@ -5,7 +5,7 @@ using UnityEngine;
 public class JumpBoost : MonoBehaviour
 {
     [SerializeField] float duration;
-    [SerializeField] float jumpPower;
+    [SerializeField] float jumpRange;
     [SerializeField] GameObject pickUpEffect;
 
    private void OnTriggerEnter(Collider other)
@@ -24,7 +24,7 @@ public class JumpBoost : MonoBehaviour
         GetComponent<Collider>().enabled = false;
         GetComponent<MeshRenderer>().enabled = false;
 
-        player.attachedRigidbody.AddForce(Vector3.up * jumpPower);
+        player.attachedRigidbody.AddForce(Vector3.up * jumpRange);
 
         yield return new WaitForSeconds(duration);
 

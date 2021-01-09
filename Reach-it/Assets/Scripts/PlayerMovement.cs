@@ -36,7 +36,12 @@ public class PlayerMovement : MonoBehaviour
             rb.AddForce(Vector3.up * jumpPower);
             playerAudioSource.PlayOneShot(jumpSound);
 
-        } 
+        }
+        else if (Input.GetKey(KeyCode.Escape))
+        {
+            SceneManager.LoadScene(0);
+        }
+         
          
     }
 
